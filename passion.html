@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Passion Photographie</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+<style>
+	img.list {text-align : center; width = 10%; height = auto;}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-success navbar-dark fixed-top">
+	<div class="container-fluid">
+ 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav"
+				<li class="navitem">
+					<a class="nav-link active" href="#home">Acceuil</a>
+				</li>
+				<li class="navitem">
+					<a class="nav-link" href="#boitiers">Boitiers</a>
+				</li>
+				<li class="navitem">
+					<a class="nav-link" href="#objectifs">Objectifs</a>
+				</li>
+				<li class="navitem">
+					<a class="nav-link" href="#marques">Marques</a>
+				</li>
+				<li class="navitem">
+					<a class="nav-link" href="#achat">Où acheter</a>
+				</li>
+				<li class="navitem">
+					<a class="nav-link" href="#newsletter">Newsletter</a>
+				</li>
+				<li class="navitem">
+					<a class="nav-link" href="#about">About</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="container-fluid" style="margin-top:70px">
+	  <h2 id="home">Passion : la photographie</h2>
+		  <p>La photographie est une passion prenante, idéale pour sortir de chez soi et regarder le monde autrement.</p>
+		  <p>Le choix du matériel est important, car il y a une partie technique à ne pas négliger.</p>
+		  <p>Il est donc important de définir son budget, car outre le boitier il faudra penser aux <a href="#objectifs">objectifs</a>, souvent plus onéreux.</p>
+		  <p>Pour débuter, un <a href="#boitiers">boitier</a> réflex amateur peut très bien suffire. Un <a href="#boitiers">boitier</a> pro risque d'être surdimensionné pour vos besoins.</p>
+		  
+	  <h2 id="boitiers">Boitiers</h2>
+			<p>Il existe aujourd'hui deux grands types de boitiers :</p>
+			<ul class="list-group">
+				<li class="list-group-item">les réflexs "traditionnels" (avec visée miroir)</li>
+				<li class="list-group-item">les réflexs dit "mirrorless" (sans miroir, donc)</li>
+			</ul>
+			<p>Pour compliquer le tout, il existe aussi différentes tailles de capteur :</p>
+			<ul class="list-group">
+				<li class="list-group-item">APS-C : créé pour le numérique, il est légèrement plus petit que le format argentique (full frame).</li>
+				<li class="list-group-item">Full Frame : c'est le format 24x36 argentique.</li>
+				<li class="list-group-item">Moyen Format : assez rare et onéreux, il s'adresse plutôt aux professionnels.</li>
+			</ul>
+			<p>Au sein de chaque gamme, les <a href="#objectifs">objectifs</a> ne sont pas les mêmes !</p>
+			<p>Il faudra donc impérativement réfléchir à cette question, à moins de vouloir se contenter des objectifs éventuellement fournis (ce qui serait dommage).</p>
+			<p>Cependant, les objectifs se conservent souvent bien plus longtemps qu'un boitier, et le marché de l'occasion n'est pas à négliger.</p>
+		<h2 id="objectifs">Objectifs</h2>
+			<p>Le gros avantage des réflexs est de pouvoir changer d'objectifs, il serait donc dommage de s'en priver.</p>
+			<p>Cependant, avant tout achat il convient de se renseigner sur la compatibilité de l'objectif avec votre boitier.</p>
+		<h2 id="achat">Où acheter</h2>
+			<p>Devant la multitude de sites plus ou moins spécialisés, il est parfois difficile de s'y retrouver.</p>
+			<p>Je vous conseille les sites suivants, qui pratiquent des tarifs abordables et ont un service client sérieux et réactif :</p>
+			<a href="https://www.missnumerique.com/">
+				<img border="0" src="missnumerique-logo.jpg" style="max-width:100%;height:auto;" alt="Jeune femme prenant une photographie">
+			</a>
+			<a href="https://www.digit-photo.com/">
+				<img border="0" src="digit-photo.jfif" style="max-width:100%;height:auto;" alt="Logo Digit Photo">
+			</a>
+			
+		<h2 id="marques">Les principales marques</h2>
+			<p>Dans les réflexs traditionnels, à miroir, on trouvera surtout</p>
+			<ul class="list-group">
+				<li class="list-group-item"><img class="list" src="canon.png">Canon</li>
+				<li class="list-group-item">Nikon</li>
+				<li class="list-group-item">Pentax</li>
+			</ul>
+			<p>Dans les réflexs sans miroirs, on trouvera surtout</p>
+			<ul class="list-group">
+				<li class="list-group-item">Canon</li>
+				<li class="list-group-item">Nikon</li>
+				<li class="list-group-item">Sony</li>
+				<li class="list-group-item">Fuji</li>
+			</ul>
+		<h2 id="newsletter">Incrivez-vous à notre newsletter !</h2>
+	  
+			<p>Indiquez votre adresse e-mail</p>
+
+			<form method="post" action="traitement.php">
+			   <label for="email">Votre e-mail</label> : <input type="email" name="email" id="email" />
+			   <input type="submit" value="Envoyer" />
+			</form>
+
+			<p>Merci</p>
+	   
+	  <h2 id="about">A propos</h2>
+		<p>Site miniature créé par Hervé</p>
+</div>
+
+<script>
+function toggleMenu() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
